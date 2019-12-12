@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1, user-scalable=no" />
+  <meta name="format-detection" content="telephone=no，email=no" />
+  <meta name="misapplication-tap-height" content="no" />
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <link rel="apple-touch-icon" href="./desk.png" />
+  <link rel="apple-touch-icon-precomposed" href="./desk.png" />
+  <title>music-app</title>
+  <style>
+    body,
+    html {
+      margin: 0;
+      padding: 0;
+      height: 100% !important;
+    }
+
+    .van-tabs__content {
+      flex: 1;
+      overflow: auto;
+    }
+
+    .van-tabs__wrap {
+      overflow: visible !important;
+    }
+
+    .van-cell-group {
+      background-color: rgba(0, 0, 0, 0) !important;
+    }
+    .van-tab__pane:last-of-type{height:100%!important;overflow: auto;}
+    /* .van-tab__pane-wrapper--inactive{overflow: auto!important;} */
+    .van-step__circle-container {
+      background: rgba(255, 255, 255, 0) !important;
+    }
+
+    .van-cell,
+    .van-steps {
+      background: rgba(255, 255, 255, 0.6) !important;
+      border-radius: 0.3em
+    }
+
+    .iptSearch form {
+      z-index: 10
+    }
+
+    .searchAbout {
+      flex: 1;
+      overflow: auto;
+    }
+
+    .van-swipe-item {
+      color: rgb(255, 68, 0);
+    }
+
+    #content {
+      background: #fff;
+    }
+
+    #top {
+      overflow: hidden;
+    }
+
+    .van-tabs__content--animated {
+      overflow: auto !important;
+      flex: 1;
+    }
+
+    .van-tabs {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .van-tabs__nav--line {
+      padding-bottom: 0 !important;
+    }
+
+    .van-tabs__line {
+      bottom: -1px !important;
+    }
+
+    .van-tabs--line .van-tabs__wrap {
+      z-index: 10;
+      height: auto !important;
+    }
+
+    .mv .van-list .van-cell {
+      display: flex;
+      flex-direction: column;
+    }
+  </style>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but music-app doesn't work properly without JavaScript enabled. Please enable it to
+      continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
+</html>
